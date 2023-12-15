@@ -1,0 +1,15 @@
+.Pagination {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+button[disabled]:hover {
+  /* Add specific styles to remove hover effect */
+  pointer-events: none;
+  cursor: not-allowed;
+  /* Optionally, you can also customize the appearance */
+  opacity: 0.7;
+}
